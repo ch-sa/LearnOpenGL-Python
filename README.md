@@ -19,7 +19,7 @@ Simply install the packages using pip or conda using `pip install PyOpenGL glfw 
 ## Status
 - [ ] Tutorial 1 "OpenGL"
 - [ ] Tutorial 2 "Creating a Window"
-- [ ] Tutorial 3 "Hello Window"
+- [X] Tutorial 3 "Hello Window"
 - [ ] Tutorial 4 "Hello Triangle"
 - [ ] Tutorial 5 "Shaders"
 - [ ] Tutorial 6 "Textures"
