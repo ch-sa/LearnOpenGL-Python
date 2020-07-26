@@ -1,7 +1,7 @@
 # LearnOpenGL-Python
-Tutorials from [Learn OpenGL](learnopengl.com) translated to Python using PyOpenGL & pyGLFW.
+Tutorials from [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL) translated to Python using PyOpenGL & pyGLFW.
 
-As there is a lack of tutorials covering OpenGL-development with Python I am trying to translate the very good existing tutorials from learnopengl.com written in C++ into Python.
+As there is a lack of tutorials covering OpenGL-development with Python I am trying to translate the very good existing tutorials from [learnopengl.com](https://learnopengl.com/) written in C++ into Python.
 
 ## Requirements
 
