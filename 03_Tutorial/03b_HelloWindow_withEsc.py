@@ -1,5 +1,8 @@
+# Original code from Joey de Vries
+# Source: https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/1.2.hello_window_clear/hello_window_clear.cpp
+# Tutorial: https://learnopengl.com/Getting-started/Hello-Window
+
 import glfw
-import sys
 import OpenGL.GL as gl
 
 # settings
@@ -20,9 +23,8 @@ def main():
     # glfw: window creation
     window = glfw.create_window(SCR_WIDTH, SCR_HEIGHT, "Learn OpenGL", None, None)
     if window is None:
-        sys.stdout("Failed to create GLFW window")
         glfw.terminate()
-        return -1
+        raise Exception("Failed to create GLFW window")
 
     glfw.make_context_current(window)
     glfw.set_framebuffer_size_callback(window, framebuffer_size_callback)
