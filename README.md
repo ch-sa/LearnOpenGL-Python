@@ -1,7 +1,7 @@
 # LearnOpenGL-Python
-Tutorials from [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL) translated to Python using PyOpenGL & pyGLFW.
+Tutorials from [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL) translated to Python using `PyOpenGL`, `pyGLFW` & `numpy`.
 
-As there is a lack of tutorials covering OpenGL-development with Python I am trying to translate the very good existing tutorials from [learnopengl.com](https://learnopengl.com/) written in C++ into Python.
+As there is a lack of tutorials covering *modern* OpenGL-development with Python, I am trying to translate the very good existing tutorials from [learnopengl.com](https://learnopengl.com/) written in C++ into Python.
 
 ## Requirements
 
@@ -9,13 +9,14 @@ As there is a lack of tutorials covering OpenGL-development with Python I am try
 - pyGLFW ([github](https://github.com/FlorianRhiem/pyGLFW))
 - numpy
 
-Simply install the packages using pip or conda using `pip install PyOpenGL glfw numpy`.
+Simply install the packages with pip or conda using `pip install PyOpenGL glfw numpy`.
 
 ## Notes
 - I am still in the phase of learning, so happy to receive improvement proposals.
-- The original tutorials and C++ code were written by [Joey de Vries](https://learnopengl.com/About). I am in no way affiliated to him.
+- The original tutorials and C++ code samples were written by [Joey de Vries](https://learnopengl.com/About). I am in no way affiliated to him.
   - The original code samples were published under the CC BY-NC 4.0 license (see [description](https://creativecommons.org/licenses/by-nc/4.0/)).
 - Major changes in the code structure/ commands have been marked with `INFO: xxx`.
+- Data type translations are done using `numpy` and `ctypes`.
 
 ## Status
 - [ ] Tutorial 1 "OpenGL"
